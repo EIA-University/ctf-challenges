@@ -31,7 +31,7 @@ app.post('/echo', (req, res) => {
     }
 
     res.json(out);
-    process.exit(0);
+    //process.exit(0);
 });
 
 app.listen(8000);
