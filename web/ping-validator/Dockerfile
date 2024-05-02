@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copia el package.json y package-lock.json (si existe) al directorio de trabajo
 COPY src/* ./
+COPY start.sh ./
 
 # Instala las dependencias del proyecto
 RUN npm install
@@ -14,4 +15,4 @@ RUN npm install
 EXPOSE 8000
 
 # Comando para ejecutar la aplicación cuando se inicie el contenedor
-CMD ["node", "index.js"]
+CMD ["sh", "start.sh"]
