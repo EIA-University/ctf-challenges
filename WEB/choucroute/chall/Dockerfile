@@ -13,10 +13,6 @@ COPY flag .
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN ls
-
-RUN pwd
-
 # Define las variables de entorno
 ENV FLASK_APP=app
 ENV FLASK_ENV=production
