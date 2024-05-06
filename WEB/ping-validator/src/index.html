@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Echo API</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0f0;
+            font-family: monospace;
+            margin: 20px;
+        }
+        h2 {
+            color: #f0f;
+        }
+        pre {
+            background-color: #222;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        b {
+            color: #0ff;
+        }
+    </style>
+</head>
+<body>
+    <h2>Request</h2>
+    <p><b>POST /echo</b> with <b>Content-Type: application/json</b> and body:</p>
+    <pre>{"message": "ping"}</pre>
+    <h2>Response</h2>
+    <pre>{"userIP": "127.0.0.1", "time": 1608203140926, "message": "ping", "flag": "disabled"}</pre>
+</body>
+</html>
