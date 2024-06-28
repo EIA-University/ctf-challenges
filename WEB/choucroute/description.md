@@ -13,4 +13,9 @@ Hay un compnente con una vulnerabilidad conocida, esta dependencia se encuentra 
 
 # Flag
 
-UEIA{pr0totyp3_p0llut10n_1s_FunNy_jeje}
+UEIA{p1cKl3_L04d5_1s_V3ry_us4fu1l_3a5}
+
+
+docker build -t choucroute:latest .
+
+docker run -d -p 8124:8000 -it choucroute:latest

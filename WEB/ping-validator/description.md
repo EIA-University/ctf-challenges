@@ -14,3 +14,7 @@ Hay un compnente con una vulnerabilidad conocida, esta dependencia se encuentra 
 # Flag
 
 UEIA{pr0totyp3_p0llut10n_1s_FunNy_jeje}
+
+docker build -t ping-validator:latest .
+
+docker run -d -p 8123:8000 -it ping-validator:latest
